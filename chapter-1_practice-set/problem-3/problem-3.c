@@ -7,4 +7,3 @@ int main(){
     printf("The value of c in fahrenheit is : %f",f);
     return 0;
 }
-  
