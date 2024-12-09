@@ -1,4 +1,6 @@
-#include<stidio.h>
+#include<stdio.h>
 int main(){
-    printf("Hello world!");
+    printf("Hello World\n");
+    printf("C compiler works!\n");
 }
+ 
