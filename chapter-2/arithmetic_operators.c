@@ -6,5 +6,8 @@ int main() {
     printf("The value of c is: %d", c);
     //modulus operator is used to get remainder     
     printf("The value of a remainder b is: %d",  a%b);
+    printf("Commit check..123!");
+    printf("Commit check..123!");
+    printf("Commit check..123!");
     return 0;
 }
