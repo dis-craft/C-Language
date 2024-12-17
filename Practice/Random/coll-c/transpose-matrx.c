@@ -31,8 +31,6 @@ void writearr(int arr[10][10], int m, int n, int x){
     }
     
 }
-
-
 int main() {
     int arr[10][10];
     int transpose[10][10];
