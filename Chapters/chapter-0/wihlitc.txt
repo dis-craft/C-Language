@@ -1,11 +1,9 @@
 printf(""); - prints statements that are written within the double quotes,
 should end with a ";" semicolon to terminate the printf statement.
 
-return 0; tell that the process is completed to the main function, 
-because the main function is "int" hence 0.
+return x; returns the value of the function, if x = 0, it tells the function that program has been completed. 
 
-here return 0; indicates that program has executed successfully and has no errors
-non zero numbers actually mean there are few errors.
+here return 0; indicates that program has executed successfully and has no errors.
 
 stdio.h is a pre-processor file, here stdio.h stands for 
 standard input output, this provides functions such as:
@@ -25,3 +23,5 @@ int main(argu) // takes an argument here, #should be learnt in future chapters.
 } // marks end of the main function.
 
 End of WIHLITC - 13/12/2024
+
+Revise: 22/12/2024
