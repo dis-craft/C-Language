@@ -10,5 +10,13 @@ the datatypes are:
     int has a range of values that it can store, typically from -2,147,483,648 to 2,147,483,647 in a 32-bit system.
     It is a signed data type by default, meaning it can store both positive and negative values.
     You can also define it as unsigned to store only non-negative values, doubling the positive range.
+    format specifier is %d, %
 
     Example of using unsigned int: unsigned int b;
+
+2. float 
+    syntax: float a;
+    memory allocation 4 bytes or 32 bits
+    takes decimal values, it can store upto 7 decimal places.
+    format specifier is %f
+    All the real number literals are of double type by default. We can append an “f” at the end of the literal to define it as float type.
