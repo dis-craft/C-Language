@@ -5,7 +5,11 @@ int main() {
         printf("Hello this will not be printed!"); 
     }
     if(1){
+        printf("This will be printed!\n"); // anything other than zero is considered as true even char, float ex: if('c') if(2.0)
+    }
+    if('c') {
         printf("This will be printed!"); // anything other than zero is considered as true even char, float ex: if('c') if(2.0)
+
     }
     return 0;
 }
