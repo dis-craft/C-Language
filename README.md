@@ -1,91 +1,90 @@
-# C Language Learning Notes and Code Repository
+
+---
+
+# C Language Learning Notes and Code Repository  
 
 Welcome to my **C Language** learning repository! 🎉  
-This repository serves as my personal reference and notes while I explore and practice programming in C. It includes well-organized chapters, practice sets, and additional resources that aid in mastering the fundamentals and advanced concepts of C programming.
+This repository is a personal collection of reference notes, well-structured chapters, and practice exercises that I am developing while learning the **C programming language**. It serves as a comprehensive resource for mastering both fundamental and advanced topics in C.  
 
----
+---  
 
-## 📁 Repository Structure:
+## 📁 Repository Structure  
 
-### 1. **Chapters**
-   This directory contains topic-wise chapters covering key concepts of C. Each chapter is further divided into subtopics for detailed understanding.
+### 1. **Chapters**  
+   The `Chapters` directory is organized topic-wise, covering essential concepts of C programming. Each chapter contains subdirectories for better understanding and ease of navigation.  
 
-   - **`chapter-0`**: Introductory concepts and getting started.
-   - **`chapter-1`**: Covers the fundamentals:
-     - `datatypes`: Understanding different data types in C.
-     - `escape_sequence`: Using escape sequences for formatted output.
-     - `input`: Working with user inputs.
-     - `misc`: Miscellaneous basics of C.
-     - `sizeof`: Exploring the `sizeof` operator.
-     - `variable`: Defining and using variables in C.
-   - **`chapter-2` to `chapter-5`**: Additional topics will be filled as I progress through my learning.
+   - **`chapter-0`**: Introduction to C programming and getting started.  
+   - **`chapter-1`**: Fundamentals of C programming:  
+     - `datatypes`: Exploring data types in C.  
+     - `escape_sequence`: Using escape sequences for formatting.  
+     - `input`: Handling user input in programs.  
+     - `misc`: Miscellaneous basics of C.  
+     - `sizeof`: Learning about the `sizeof` operator.  
+     - `variable`: Working with variables in C.  
+   - **`chapter-2`**: Intermediate concepts:  
+     - `arithmetic_operations`: Performing arithmetic in C.  
+     - `associativity`: Understanding operator associativity.  
+     - `typecast-conversion`: Casting data types in C.  
+     - `variables`: Variable handling and scope.  
+   - **`chapter-3`**: Control flow and decision-making:  
+     - `conditionals`: Writing conditional statements.  
+     - `else-if`: Advanced condition handling.  
+     - `logical_operator`: Using logical operators effectively.  
+     - `non-zero`: Understanding truthy and falsy values.  
+     - `switch`: Switch-case control flow.  
+     - `ternary`: Using ternary operators for brevity.  
+   - Additional chapters (`chapter-4`, `chapter-5`, etc.) will be added as I progress.  
 
-### 2. **Practice**
-   Includes practice sets for each chapter to solidify the concepts:
-   - `chapter-1_practice-set`: Exercises for Chapter 1.
-   - `chapter-2_practice-set`: Exercises for Chapter 2.
-   - `chapter-3_practice-set`: Exercises for Chapter 3.
-   - `w3schools`: Notes and code snippets based on W3Schools tutorials.
+### 2. **Practice**  
+   The `Practice` directory contains problem sets for each chapter to reinforce learning through practical exercises:  
+   - `chapter-1_practice-set`: Exercises based on Chapter 1 concepts.  
+   - `chapter-2_practice-set`: Exercises for Chapter 2 topics.  
+   - `chapter-3_practice-set`: Hands-on challenges from Chapter 3.  
+   - `w3schools`: Code snippets and examples from W3Schools tutorials.  
 
----
+---  
 
-## 🌟 Purpose
+## 🌟 Purpose  
 
-This repository serves multiple purposes:
-- **Learning Reference**: A comprehensive resource to revisit concepts anytime.
-- **Hands-on Practice**: Strengthening understanding through exercises.
-- **GitHub Portfolio**: Sharing progress and showcasing my journey.
+This repository is designed for:  
+- **Personal Learning**: Serving as a go-to reference for revisiting concepts.  
+- **Practice and Application**: Strengthening concepts through practical coding.  
+- **Portfolio Showcase**: Demonstrating progress in mastering C.  
 
----
+---  
 
-## 🚀 Getting Started
+## 🚀 Getting Started  
 
-To use the code:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/c-language-learning.git
-   ```
-2. Navigate to the desired chapter or practice directory.
-3. Open the `.c` files in your favorite IDE (e.g., VS Code) and run them.
+To explore the code:  
+1. Clone this repository:  
+   ```bash  
+   git clone https://github.com/dis-craft/C-Language.git  
+   ```  
+2. Navigate to the desired chapter or practice directory.    
 
----
+---  
 
-## 🛠 Tools & Resources
+## 🛠 Tools & Resources used:
 
-- **Editor**: [Visual Studio Code](https://code.visualstudio.com/)
-- **Compiler**: GCC (GNU Compiler Collection)
-- **Resources**: W3Schools, tutorials, and personal notes.
+- **Editor**: [Visual Studio Code](https://code.visualstudio.com/)  
+- **Compiler**: GCC (GNU Compiler Collection)  
+- **Learning Resources**: W3Schools, online tutorials(Code with Harry), and GPT!.  
 
----
+---  
 
-## 📝 Current Status
+## 📝 Current Status  
 
-I am actively learning and updating this repository.  
-Feel free to explore the notes and code. Suggestions or improvements are always welcome!
+This repository is a work in progress. I am actively updating it as I learn and practice C programming.  
 
----
+---  
 
-## 📌 Roadmap
+## 🤝 Contributions  
 
-- Complete all chapters with detailed explanations and examples.
-- Expand practice sets for advanced problem-solving.
-- Add project-based learning as I grow my expertise.
+This is primarily a personal learning resource, but contributions are welcome! Feel free to fork the repository, suggest improvements, or report issues.  
 
----
+---  
+ 
+Happy Coding! 
 
-## 🤝 Contributing
+---  
 
-While this is primarily a personal learning resource, you are welcome to fork the repository, suggest improvements, or report issues.
-
----
-
-## ⚡ License
-
-This repository is for personal learning purposes and does not include a formal license. Use it for educational purposes and respect the author’s efforts.
-
----
-
-Happy Coding! 😊
-```
-
-You can copy and customize this file further if needed, including your GitHub username in the clone URL or any other details. Let me know if you'd like further adjustments!
