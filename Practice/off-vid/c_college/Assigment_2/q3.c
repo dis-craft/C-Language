@@ -1,4 +1,4 @@
-//Write a C program to determine if a person is eligible to vote
+//Question: Write a C program to determine if a person is eligible to vote
 
 #include <stdio.h>
 

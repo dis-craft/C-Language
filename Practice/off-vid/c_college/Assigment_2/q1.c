@@ -1,4 +1,4 @@
-// Write a C program to input a student's marks in four subjects, calculate the total, aggregate, and display the grade obtained.
+// Question: Write a C program to input a student's marks in four subjects, calculate the total, aggregate, and display the grade obtained.
 #include <stdio.h>
 
 int main() {
