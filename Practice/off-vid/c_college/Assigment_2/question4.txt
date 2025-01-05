@@ -1,0 +1,5 @@
+Two advantages of using a `switch` case:
+
+1. Improved Readability and Maintainability: When you have multiple conditions to check against a single variable, using a `switch` case is often more readable than using multiple `if-else` statements. It makes the code cleaner, easier to follow, and maintain, especially when dealing with many potential cases.
+
+2. Better Performance for Multiple Conditions: A `switch` statement can be more efficient than a series of `if-else` conditions, especially when there are many conditions to evaluate. In some cases, the `switch` case may be optimized by the compiler, resulting in faster execution.
