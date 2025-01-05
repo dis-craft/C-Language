@@ -35,3 +35,18 @@ int main() {
 
     return 0;
 }
+
+
+/*
+Output: 
+Enter marks for 4 subjects (out of 100):
+Subject 1: 78
+Subject 2: 98
+Subject 3: 76
+Subject 4: 89
+
+Results:
+Total Marks: 341.00/400
+Aggregate: 85.25%
+Grade: A
+*/

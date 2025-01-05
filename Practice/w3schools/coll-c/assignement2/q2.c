@@ -10,3 +10,14 @@ int main() {
         printf("%d is an odd number! \n", n);
     return 0;
 }
+
+/*
+Output:
+
+Enter a number: 34
+34 is an even number!
+
+Enter a number: 17
+17 is an odd number!
+
+*/
