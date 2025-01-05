@@ -12,7 +12,7 @@ int main() {
     while(i<11){
         printf("%d X %d = %d\n", n, i, n*i);
         i++;
-    }
+    } 
     printf("\n");
 
     printf("using do-while loop: \n");
