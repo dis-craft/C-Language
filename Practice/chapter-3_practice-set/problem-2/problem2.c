@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int main() {
     int p;
     int m1,m2,m3;
@@ -10,7 +11,7 @@ int main() {
     scanf("%d", &m3);
     p = (m1+m2+m3)/3;
     printf("The percentage is %d\n", p);
-    if(m1<33 || m2<33 || m3<33){ // using || OR operator we check if any of the conditions are true
+    if(m1<33 || m2<33 || m3<33){
         printf("Fail due to less marks in one of the subjects\n");
     }
     else if(p<40){

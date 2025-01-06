@@ -3,14 +3,17 @@
 #include <time.h>
 
 int main() {
-    // Initialize random number generator
     srand(time(0));
-
-    // Generate random number between 1 and 100
-    int randomNum = (rand() % 100) + 1;
-
-    // Print the random number
-    printf("Random number between 1 and 100: %d\n", randomNum);
-
+    int randomNum = (rand() % 100) + 1, guess, i=0;
+    while (guess != randomNum){
+    printf("Guess the random number!\n");
+    scanf("%d", &guess);
+    if(guess>randomNum)
+        printf("Lower!\n");
+    else
+        printf("Higher!\n");    
+    i++;
+    }
+    printf("You got it! And you took %d guesses!", i);
     return 0;
 }
