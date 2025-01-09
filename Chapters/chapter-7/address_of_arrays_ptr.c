@@ -8,4 +8,4 @@ int main() {
     return 0;
 }
 
-//address of elements in arrays in contagious!
+//address of elements in arrays in contagious!                                                      
