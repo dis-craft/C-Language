@@ -16,6 +16,7 @@ int main() {
         }
         if (is_prime) {
             prime_count++; // Increment prime count
+            printf("%d\n", j);
         }
     }
 
