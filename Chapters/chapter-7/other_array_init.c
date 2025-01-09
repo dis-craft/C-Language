@@ -6,4 +6,4 @@ int main() {
         printf("%d\n", cgpa[i]);
     }
     return 0;
-}
+} 
