@@ -1,0 +1,2 @@
+/*C program to check the given character is 
+lowercase or uppercase or special character*/
