@@ -32,7 +32,7 @@ int main() {
     sum = 0;
     for (i = 0; i < n; i++) {
         // Variance calculation using (arr + i) to access elements and mean for the difference
-        sum = sum + (*(arr + i) - mean) * (*(arr + i) - mean);
+        sum = sum + (*(arr+i)-mean)*(*(arr+i)-mean);
     }
 
     // Compute variance and standard deviation
