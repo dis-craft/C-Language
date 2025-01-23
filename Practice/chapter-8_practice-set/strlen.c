@@ -1,10 +1,15 @@
 #include<stdio.h>
-int main(){
-    char string[]="hello";
+int strlenn(char a[]){
     int i,j=0;
-    for(i=0; string[i]!='\0' ; i++){
+    for(i=0; a[i]!='\0' ; i++){
         j++;
     }
     printf("%d", j);
+}
+
+int main(){
+    char string[20];
+    gets(string);
+    strlenn(string);
     return 0;
 }
