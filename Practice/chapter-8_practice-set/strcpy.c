@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 void strcopy(char a[], char b[]) {
     int i;
@@ -18,18 +19,3 @@ int main() {
     return 0;
 }
 
-/*strcpy(str1, str2) logic:
-    str1 = str2;
-*/
-
-/* checking for char.
-#include <stdio.h>
-
-int main() {
-    char a = 'A';
-    char b = 'B';
-    b=a;
-    printf("%c", b);
-    return 0;
-}
-*/
