@@ -16,11 +16,11 @@ void main(){
     printf("Enter the number of students:\n");
     scanf("%d", &n);
 
-    for(int i=1; i<=n ; i++){
-        printf("Enter the details of student %d: \n", i);
-        printf("Enter the USN of student %d: \n", i);
+    for(int i=0; i<n ; i++){
+        printf("Enter the details of student %d: \n", i+1);
+        printf("Enter the USN of student %d: \n", i+1);
         scanf("%s", s[i].USN);
-        printf("Enter the name of student %d: \n", i);
+        printf("Enter the name of student %d: \n", i+1);
         scanf("%s", s[i].name);
         printf("Enter the marks of subject 1,2,3 student %d: \n", i);
         scanf("%f %f %f", &s[i].marks1, &s[i].marks2, &s[i].marks3);
