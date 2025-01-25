@@ -3,80 +3,40 @@ the built-in library function. Print both the results with appropriate inference
 Sine function using taylor series*/
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
-    int array[100], n, c, d, swap, order;
+    int n, i;
+    float number, term, denominator, x, sinx, sinx1;
 
-    printf("Enter number of elements\n");
-    scanf("%d", &n);
+    printf("Enter the number of terms in a series: ");
+    scanf("%f", &number);
 
-    printf("Sorting order (1 for Ascending, 2 for Descending): ");
-    scanf("%d", &order);
+    printf("Enter the value of x (in degrees): ");
+    scanf("%f", &x);
 
-    printf("Enter %d integers\n", n);
-    for (c = 0; c < n; c++)
-        scanf("%d", &array[c]);
+    x = x * 3.142 / 180.0;
+    sinx = x;
+    term = x;
 
-    if (order == 1)
+    for (i = 1; i <= number; i++)
     {
-        for (c = 0; c < (n - 1); c++)
-        {
-            for (d = 0; d < n - c - 1; d++)
-            {
-                if (array[d] > array[d + 1])
-                {
-                    swap = array[d];
-                    array[d] = array[d + 1];
-                    array[d + 1] = swap;
-                }
-            }
-        }
-
-        printf("Sorted list in ascending order:\n");
-        for (c = 0; c < n; c++)
-            printf("%d\n", array[c]);
+        denominator = 2 * i * (2 * i + 1);
+        term = -term * x * x / denominator;
+        sinx = sinx + term;
     }
-    else if (order == 2)
-    {
-        for (c = 0; c < (n - 1); c++)
-        {
-            for (d = 0; d < n - c - 1; d++)
-            {
-                if (array[d] < array[d + 1])
-                {
-                    swap = array[d];
-                    array[d] = array[d + 1];
-                    array[d + 1] = swap;
-                }
-            }
-        }
 
-        printf("Sorted list in descending order:\n");
-        for (c = 0; c < n; c++)
-            printf("%d\n", array[c]);
-    }
-    else
-        printf("Invalid selection of order");
+    printf("Sum of the sine series = %f\n", sinx);
+    printf("Using Library function sin(%f) = %f\n", x, sin(x));
 
     return 0;
 }
 
 /*
-Enter number of elements
-5
-Sorting order (1 for Ascending, 2 for Descending): 
-1
-Enter 5 integers
-5
-2
-9
-1
-5
-Sorted list in ascending order:
-1
-2
-5
-5
-9
+Enter the number of terms in a series: 5
+Enter the value of x (in degrees): 30
+
+Sum of the sine series = 0.500000
+Using Library function sin(0.523599) = 0.500000
 */
