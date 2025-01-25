@@ -10,16 +10,13 @@ int main() {
         if(string[i]==c){
             count = 1;
         } 
-        else{
-            count = 0;
-        }
     }
-    if (count==0)
+    if (count==1)
     {
-        printf("The entered character does not exist in the string!");
+        printf("The entered character exists in the string!");
     }
     else{
-        printf("The entered character exists in the string!");
+        printf("The entered character does not exist in the string!");
     }
     return 0;
 }
