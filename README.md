@@ -79,6 +79,14 @@ This repository is a personal collection of reference notes, well-structured cha
    - `chapter-1_practice-set`: Exercises based on Chapter 1 concepts.  
    - `chapter-2_practice-set`: Exercises for Chapter 2 topics.  
    - `chapter-3_practice-set`: Hands-on challenges from Chapter 3.  
+   - `chapter-4_practice-set`: Hands-on challenges from Chapter 4.  
+   - `chapter-5_practice-set`: Hands-on challenges from Chapter 5.  
+   - `chapter-6_practice-set`: Hands-on challenges from Chapter 6.  
+   - `chapter-7_practice-set`: Hands-on challenges from Chapter 7.  
+   - `chapter-8_practice-set`: Hands-on challenges from Chapter 8.  
+   - `chapter-9_practice-set`: Hands-on challenges from Chapter 9.  
+   - `chapter-10_practice-set`: Hands-on challenges from Chapter 10.  
+   - `chapter-11_practice-set`: Hands-on challenges from Chapter 11.  
    - `w3schools`: Code snippets and examples from W3Schools tutorials.  
 
 ---  
