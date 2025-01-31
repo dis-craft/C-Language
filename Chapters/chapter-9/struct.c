@@ -1,15 +1,19 @@
 #include <stdio.h>
+#include <string.h>
 
-struct mystruct{
-    int a;
-    int b;
-    char name[10];
+struct employee{
+    int ID;
+    char name[20];
+    double salary;
 };
 
 int main() {
-    struct mystruct mys; //need not be a single word
-    mys.a = 5;
-    mys.b = 6;
-    printf("%d", mys.a + mys.b);
+    // char realname = "srikar";
+    struct employee e1;
+    e1.ID = 123;
+    // *e1.name = "srikar";
+    strcpy( e1.name , "srikar");
+    e1.salary  = 20000000.00;
+    printf("%d %f %s", e1.ID, e1.salary, e1.name);
     return 0;
 }
