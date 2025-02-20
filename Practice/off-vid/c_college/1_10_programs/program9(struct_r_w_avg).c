@@ -41,3 +41,39 @@ void main() {
         }
     }
 }
+
+/*
+Enter the number of students:
+3
+
+Enter the details of student 1:
+Enter the USN of student 1: 
+1MJ17CS001
+Enter the name of student 1: 
+Alice
+Enter the marks of subject 1, 2, 3 of student 1: 
+40 35 50
+
+Enter the details of student 2:
+Enter the USN of student 2: 
+1MJ17CS002
+Enter the name of student 2: 
+Bob
+Enter the marks of subject 1, 2, 3 of student 2: 
+30 25 20
+
+
+Enter the details of student 3:
+Enter the USN of student 3: 
+1RV17CS003
+Enter the name of student 3: 
+Charlie
+Enter the marks of subject 1, 2, 3 of student 3: 
+36 40 38
+
+
+Alice has scored above 35!
+Bob has not scored above 35!
+Charlie has scored above 35!
+
+*/
