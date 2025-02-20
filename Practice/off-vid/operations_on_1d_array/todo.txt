@@ -1,0 +1,23 @@
+1.  Declaration  - Define array size.  
+2.  Initialization  - Assign initial values.  
+3.  Element Access  - Retrieve specific element.  
+4.  Element Modification  - Update array value.  
+5.  Array Traversal  - Loop through elements.  
+6.  Linear Search  - Find element sequentially.  
+7.  Binary Search  - Find in sorted array.  
+8.  Bubble Sort  - Sort by swapping neighbors.  
+9.  Insertion Operation  - Add new element.  
+10.  Deletion Operation  - Remove an element.  
+11.  Memory Allocation  - Dynamic array creation.  
+12.  Memory Reallocation  - Resize dynamic array.  
+13.  Memory Deallocation  - Free allocated memory.  
+14.  Array Length Calculation  - Determine array size.  
+15.  Array Copying  - Duplicate array elements.  
+16.  Array Merging  - Combine two arrays.  
+17.  Array Reversing  - Flip array order.  
+18.  Sum Calculation  - Add all elements.  
+19.  Average Calculation  - Compute mean value.  
+20.  Max/Min Finding  - Identify largest/smallest element.  
+21.  Equality Check  - Compare two arrays.  
+22.  Passing to Functions  - Send array reference.  
+23.  Occurance 

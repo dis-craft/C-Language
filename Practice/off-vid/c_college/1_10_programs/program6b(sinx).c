@@ -7,22 +7,22 @@ Sine function using taylor series*/
 
 int main()
 {
-    int n, i;
-    float number, term, denominator, x, sinx, sinx1;
+    int n, x1;
+    float number, term, denominator, x, sinx;
 
     printf("Enter the number of terms in a series: ");
     scanf("%f", &number);
 
     printf("Enter the value of x (in degrees): ");
     scanf("%f", &x);
-
-    x = x * 3.142 / 180.0;
-    sinx = x;
+    x1 = x;
+    x = x * (3.142 / 180.0);
     term = x;
+    sinx = term;
 
-    for (i = 1; i <= number; i++)
+    for (n = 1; n <= number; n++)
     {
-        denominator = 2 * i * (2 * i + 1);
+        denominator = 2 * n * (2 * n + 1);
         term = -term * x * x / denominator;
         sinx = sinx + term;
     }

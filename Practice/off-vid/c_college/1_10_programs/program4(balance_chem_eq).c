@@ -6,7 +6,7 @@ such that the equation is balanced on both side and it must be the reduced form.
 
 int gcd(int a, int b){
     int hcf;
-    for(int i = 1; i<=a&&i<=b ; i++){
+    for(int i = 1; (i<=a)&&(i<=b) ; i++){
         if(a%i==0 && b%i==0){
             hcf = i;
         }
@@ -16,7 +16,7 @@ int gcd(int a, int b){
 
 int balance(int x, int y, int p, int q){
     int b1,b2,b3,temp;
-    if(p%x==0 && q%y == 0){
+    if((p%x==0) && (q%y==0)){
         b1 = p/x;
         b2 = q/y;
         b3 = 1;
@@ -34,11 +34,13 @@ int balance(int x, int y, int p, int q){
 }
 
 int main() {
-    int k,l,m,n;
+    int x,y,p,q;
     printf("Enter the atomic nature of reactants x and y");
-    scanf("%d %d", &k, &l);
+    scanf("%d %d", &x, &y);
     printf("Enter the atomic nature of products p and q");
-    scanf("%d %d", &m, &n);
-    balance(k,l,m,n);
+    scanf("%d %d", &p, &q);
+    balance(x,y,p,q);
     return 0;
 }
+
+// b1(AxBy) = b2(Ap) + b3(Bq)

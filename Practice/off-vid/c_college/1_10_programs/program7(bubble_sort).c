@@ -21,7 +21,7 @@ int main()
     {
         for (c = 0; c < (n - 1); c++)
         {
-            for (d = 0; d < n - c - 1; d++)
+            for (d = 0; d < (n - c - 1); d++)
             {
                 if (array[d] > array[d + 1])
                 {
@@ -32,15 +32,15 @@ int main()
             }
         }
 
-        printf("Sorted list in ascending order:\n");
-        for (c = 0; c < n; c++)
-            printf("%d\n", array[c]);
+            printf("Sorted list in ascending order:\n");
+            for (c = 0; c < n; c++)
+                printf("%d\n", array[c]);
     }
     else if (order == 2)
     {
         for (c = 0; c < (n - 1); c++)
         {
-            for (d = 0; d < n - c - 1; d++)
+            for (d = 0; d < (n - c - 1) ; d++)
             {
                 if (array[d] < array[d + 1])
                 {

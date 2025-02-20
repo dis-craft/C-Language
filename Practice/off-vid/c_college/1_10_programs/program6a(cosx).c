@@ -7,7 +7,7 @@ Sine function using taylor series*/
 
 int main()
 {
-    int n, i, j;
+    int n, i, j,x1;
     float x, sign, cosx, fact;
 
     printf("Enter the number of terms in a series: ");
@@ -15,10 +15,10 @@ int main()
 
     printf("Enter the value of x (in degrees): ");
     scanf("%f", &x);
-
+    x1=x;
     x = x * 3.142 / 180.0;
     cosx = 1;
-    sign = 1;
+    sign = -1;
 
     for (i = 2; i <= n; i = i + 2)
     {
@@ -28,11 +28,11 @@ int main()
             fact = fact * j;
         }
         cosx = cosx + (pow(x, i) / fact) * sign;
-        sign = sign * -1;
+        sign = sign*(-1);
     }
 
     printf("Sum of the cosine series = %f\n", cosx);
-    printf("The value of cos(%f) using library function = %f\n", x, cos(x));
+    printf("The value of cos(%d) using library function = %f\n", x1, cos(x));
 
     return 0;
 }
